@@ -83,7 +83,7 @@ var form = document.querySelector("#formInput");
 function createTextInput(textObject) {
   var newInput = document.createElement("input");
   newInput.type = textObject.type;
-  newInput.className = "input";
+  newInput.classList = "input";
   newInput.id = textObject.id;
   newInput.placeholder = textObject.label;
 

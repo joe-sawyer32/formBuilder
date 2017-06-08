@@ -1,20 +1,54 @@
 body {
-  margin: 0;
-  color: black;
-  max-width: 50%;
+  margin: 10% 25%;
+  border: 2px solid #C1C1C1;
+  border-radius: 2px;
 }
 
-header, footer {
+header {
   background: #2886CF;
   color: white;
 }
 
+h2 {
+  margin: 0;
+  padding: 1rem 1.5rem;
+  font-family: system-ui;
+  font-weight: lighter;
+}
+
 #formInput {
-  padding: 2rem;
+  padding: 1.5rem 1rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .input {
   flex: 1 100%;
+  padding: .5rem;
+  margin: .5rem;
+  border: 2px solid #C1C1C1;
+  border-radius: 3px;
+}
+
+#user-language {
+  background: white;
+  height: 2rem;
+}
+
+#user-comment {
+  height: 4rem;
+  border: 2px solid #C1C1C1;
+}
+
+footer {
+  background: #C4DDF2;
+}
+
+button {
+  background: #2886CF;
+  color: white;
+  padding: .5rem;
+  margin: 1rem;
+  border: 1px solid #2886CF;
+  border-radius: 2px;
 }
