@@ -1,9 +1,20 @@
 body {
   margin: 0;
   color: black;
+  max-width: 50%;
 }
 
 header, footer {
   background: #2886CF;
   color: white;
+}
+
+#formInput {
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input {
+  flex: 1 100%;
 }

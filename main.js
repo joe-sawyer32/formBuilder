@@ -83,6 +83,7 @@ var form = document.querySelector("#formInput");
 function createTextInput(textObject) {
   var newInput = document.createElement("input");
   newInput.type = textObject.type;
+  newInput.className = "input";
   newInput.id = textObject.id;
   newInput.placeholder = textObject.label;
 
@@ -92,6 +93,7 @@ function createTextInput(textObject) {
 function createSelectInput(selectObject) {
   var newInput = document.createElement("select");
   newInput.type = selectObject.type;
+  newInput.className = "input";
   newInput.id = selectObject.id;
 
   var defaultOption = document.createElement("option");
@@ -114,6 +116,7 @@ function createSelectInput(selectObject) {
 function createTextAreaInput(textAreaObject) {
   var newInput = document.createElement("textarea");
   newInput.type = textAreaObject.type;
+  newInput.className = "input";
   newInput.id = textAreaObject.id;
   newInput.placeholder = textAreaObject.label;
 
