@@ -125,8 +125,8 @@ function createTextAreaInput(textAreaObject) {
   newIcon.className = "fa " + textAreaObject.icon;
   newInput.placeholder = textAreaObject.label;
 
+  newIcon.appendChild(newInput);
   form.appendChild(newIcon);
-  form.appendChild(newInput);
 }
 
 for (let i = 0; i < formData.length; i++) {

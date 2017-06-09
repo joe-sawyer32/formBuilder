@@ -23,6 +23,15 @@ h2 {
 }
 
 .input {
+  border: none;
+}
+
+*:before {
+  color: #C1C1C1;
+  padding-right: .5rem;
+}
+
+.fa {
   flex: 1 100%;
   padding: .5rem;
   margin: .5rem;
@@ -42,7 +51,8 @@ h2 {
 
 #user-comment {
   height: 4rem;
-  border: 2px solid #C1C1C1;
+  border: none;
+  resize: none;
 }
 
 footer {
